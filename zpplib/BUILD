@@ -12,6 +12,7 @@ cc_library(
     hdrs = ["math.h"],
     # 如果这个头文件库依赖于其他库，可以在 deps 中添加
     deps = [],
+    visibility = ["//visibility:public"],  # 设置可见性为 public，使得其他包可以依赖这个库
 )
 
 cc_binary(
