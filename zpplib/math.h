@@ -7,6 +7,10 @@ void swap(int& i, int& j){
     i = i - j;
 }
 
+int add_(int i, int j){
+    return i + j;
+}
+
 bool greater_(int i, int j){
     return i > j;
 }
@@ -32,7 +36,7 @@ void print_arr(T* p, int len){
 }
 
 void test_bubleSort2(){
-    int arr[4]{1,4,5,2};
+    int arr[4] = {1,4,5,2};
     bubleSort2(arr,4, greater_);
     print_arr(arr,4);
     bubleSort2(arr,4, little_);
