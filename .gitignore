@@ -3,4 +3,6 @@ bazel-out
 bazel-testlogs
 bazel-zalgo
 bazel-zpplib
+*.zip
+*.tar.gz
 
