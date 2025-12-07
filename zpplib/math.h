@@ -1,5 +1,5 @@
 #include <iostream>
-using namespace std;
+namespace zpplib{
 
 void swap(int& i, int& j){
     i = i + j;
@@ -44,3 +44,4 @@ void test_bubleSort2(){
 
 }
 
+}

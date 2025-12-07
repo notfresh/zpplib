@@ -3,6 +3,6 @@
 
 int main() {
     std::cout << "Hello, World!" << std::endl;
-    std::cout << greater_(10, 8) << std::endl;
+    std::cout << zpplib::greater_(10, 8) << std::endl;
     return 0;
 }
